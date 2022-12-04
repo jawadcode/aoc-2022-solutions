@@ -1,0 +1,6 @@
+# dune init project day_2_rock_paper_scissors
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root:
+# /home/jawad/Desktop/aoc-2022-solutions/day_2_rock_paper_scissors
+# Auto-detected concurrency: 2
