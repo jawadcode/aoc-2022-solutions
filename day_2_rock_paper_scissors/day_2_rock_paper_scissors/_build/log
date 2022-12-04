@@ -1,10 +1,10 @@
-# dune exec day_2_rock_paper_scissors one
+# dune exec day_2_rock_paper_scissors 1
 # OCAMLPARAM: unset
 # Shared cache: disabled
 # Workspace root:
 # /home/jawad/Desktop/aoc-2022-solutions/day_2_rock_paper_scissors/day_2_rock_paper_scissors
 # Auto-detected concurrency: 2
-$ /home/jawad/.opam/4.14.0/bin/ocamlc.opt -config > /tmp/dune_67317d_output
+$ /home/jawad/.opam/4.14.0/bin/ocamlc.opt -config > /tmp/dune_6dcfb5_output
 # Dune context:
 #  { name = "default"
 #  ; kind = "default"
