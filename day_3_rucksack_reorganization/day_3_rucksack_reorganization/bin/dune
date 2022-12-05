@@ -1,0 +1,4 @@
+(executable
+ (public_name day_3_rucksack_reorganization)
+ (name main)
+ (libraries day_3_rucksack_reorganization batteries))
