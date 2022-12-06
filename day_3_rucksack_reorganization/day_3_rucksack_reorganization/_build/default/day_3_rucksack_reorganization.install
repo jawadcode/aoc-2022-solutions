@@ -1,8 +1,0 @@
-lib: [
-  "_build/install/default/lib/day_3_rucksack_reorganization/META"
-  "_build/install/default/lib/day_3_rucksack_reorganization/dune-package"
-  "_build/install/default/lib/day_3_rucksack_reorganization/opam"
-]
-bin: [
-  "_build/install/default/bin/day_3_rucksack_reorganization"
-]
