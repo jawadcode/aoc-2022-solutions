@@ -20,7 +20,7 @@ and get_rucksacks contents =
 
 let rec part_two contents =
   String.split_on_char '\n' contents
-  |> next_three
+  |> group_three
   |> List.map (fun group ->
          let first, second, third =
            Tuple3.mapn (Set.of_seq % String.to_seq) group
@@ -28,10 +28,10 @@ let rec part_two contents =
          Set.intersect first second |> Set.intersect third |> Set.any)
   |> List.map priority |> List.sum |> Printf.printf "Sum: %d\n"
 
-and next_three rucksacks =
+and group_three rucksacks =
   match rucksacks with
   | first :: second :: third :: rest ->
-      List.cons (first, second, third) (next_three rest)
+      List.cons (first, second, third) (group_three rest)
   | [] -> []
   | _ -> assert false
 

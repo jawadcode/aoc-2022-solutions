@@ -1,0 +1,4 @@
+(executable
+ (public_name day_4_camp_cleanup)
+ (name main)
+ (libraries day_4_camp_cleanup batteries))
